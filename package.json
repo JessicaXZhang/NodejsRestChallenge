@@ -1,0 +1,31 @@
+{
+  "name": "twitterapitest",
+  "version": "1.0.0",
+  "description": "Nodejs Twitter API Test",
+  "main": "httpMethods.js",
+  "scripts": {
+    "test-direct": "mocha ./test/test-api-direct-callback.js",
+    "test-promise": "mocha ./test/test-api-async-await.js",
+    "test-regex": "mocha -f "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minihunter97/NodejsRestChallenge.git"
+  },
+  "author": "Jessica Zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minihunter97/NodejsRestChallenge/issues"
+  },
+  "homepage": "https://github.com/minihunter97/NodejsRestChallenge#readme",
+  "dependencies": {
+    "openurl": "^1.1.1",
+    "opn": "^5.4.0",
+    "supertest": "^3.4.2",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  }
+}
